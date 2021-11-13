@@ -9,7 +9,7 @@ cluster = "localnet"
 wallet = "/home/kojusola/.config/solana/id.json"
 
 [scripts]
-test = "yarn run mocha -t 1000000 tests/"
+test = "node tests/myepicproject.js" 
 
 [test]
 startup_wait = 100000
